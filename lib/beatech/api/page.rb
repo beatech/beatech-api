@@ -1,7 +1,7 @@
 class Beatech::API::Page
-  include Beatech::API
+  extend Beatech::API
 
-  def table_name
+  def self.table_name
     'entries'
   end
 end

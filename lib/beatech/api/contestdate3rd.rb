@@ -1,7 +1,7 @@
 class Beatech::API::Contestdate3rd
-  include Beatech::API
+  extend Beatech::API
 
-  def table_name
+  def self.table_name
     'contestdate3rds'
   end
 end

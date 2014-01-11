@@ -1,7 +1,7 @@
 class Beatech::API::TwitterAccount
-  include Beatech::API
+  extend Beatech::API
 
-  def table_name
+  def self.table_name
     'twitter_accounts'
   end
 end

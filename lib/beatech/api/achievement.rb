@@ -1,7 +1,7 @@
 class Beatech::API::Achievement
-  include Beatech::API
+  extend Beatech::API
 
-  def table_name
+  def self.table_name
     'achievements'
   end
 end

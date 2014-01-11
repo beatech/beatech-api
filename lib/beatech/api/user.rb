@@ -1,7 +1,7 @@
 class Beatech::API::User
-  include Beatech::API
+  extend Beatech::API
 
-  def table_name
+  def self.table_name
     'users'
   end
 end
