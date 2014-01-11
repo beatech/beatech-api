@@ -5,7 +5,7 @@ require 'beatech/api/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "beatech-api"
-  spec.version       = Beatech::Api::VERSION
+  spec.version       = Beatech::API::VERSION
   spec.authors       = ["Takashi Kokubun"]
   spec.email         = ["takashikkbn@gmail.com"]
   spec.summary       = %q{TODO: Write a short summary. Required.}
