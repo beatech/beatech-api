@@ -1,29 +1,15 @@
-# Beatech::Api
+# Beatech::API
 
-TODO: Write a gem description
+Client library to get table data in http://beatech.net
+
+## Purpose
+
+To ease db migration to another db with incompatible schema
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'beatech-api'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install beatech-api
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+```ruby
+gem 'beatech-api', github: 'tkkbn/beatech-api'
+```
