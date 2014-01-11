@@ -8,9 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Beatech::API::VERSION
   spec.authors       = ["Takashi Kokubun"]
   spec.email         = ["takashikkbn@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Client library to interact with beatech.net}
+  spec.homepage      = "https://github.com/tkkbn/beatech-api"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
