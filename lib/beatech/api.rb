@@ -7,11 +7,12 @@ require 'beatech/api/twitter_account'
 require 'beatech/api/user'
 require 'json'
 require 'open-uri'
+require 'active_support/core_ext/hash/keys'
 
 module Beatech
   module API
     def all
-      JSON.parse(get_json(table_name))
+      JSON.parse(get_json(table_name)).map{ |hash| hash.symbolize_keys }
     end
 
     def get_json(table_name)
